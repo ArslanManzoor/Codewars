@@ -18,11 +18,11 @@ function factorial(n)
     }
     else
     {
-        var factSdontcareaboutyourfeelings = 1;
+        var theFactorial = 1;
         for (var i = n; i > 1; i = i - 1)
         {
-            factSdontcareaboutyourfeelings = factSdontcareaboutyourfeelings * i;
+            theFactorial = theFactorial * i;
         }
-        return factSdontcareaboutyourfeelings;
+        return theFactorial;
     }
 }

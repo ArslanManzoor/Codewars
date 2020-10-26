@@ -12,7 +12,7 @@ def factorial(n):
     elif n == 0:
         return 1;
     else:
-        retard = 1
-        for autist in range(2, n):
-            retard = retard * autist
-        return retard
+        the_factorial = 1
+        for a in range(2, n):
+            the_factorial = the_factorial * a
+        return the_factorial
